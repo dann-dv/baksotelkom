@@ -1,2 +1,3 @@
 # baksotelkom
-Project Landing Page "Bakso Telkom"
+
+Project landing page for Bakso Telkom, built with Next.js, Tailwind CSS, and Three.js.
