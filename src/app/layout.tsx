@@ -14,7 +14,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Bakso Telkom - Sajian Autentik, Cita Rasa Klasik",
+  title: "Bakso Telkom Klaten",
   description: "Website Landing Page Bakso Telkom Klaten. Menyajikan informasi operasional, menu favorit, dan kemudahan pemesanan melalui WhatsApp.",
 };
 
