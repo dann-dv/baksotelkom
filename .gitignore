@@ -35,6 +35,7 @@ yarn-error.log*
 
 # internal project docs
 prd.md
+AGENTS.md
 
 # vercel
 .vercel

@@ -7,13 +7,7 @@ export default function Footer() {
     <footer className="bg-forestGreen text-softCream py-12">
       <div className="container mx-auto px-4 md:px-8 text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex flex-col items-center md:items-start gap-3">
-          <Image
-            src="/logo_baksoTelkom.webp"
-            alt="Logo Bakso Telkom"
-            width={120}
-            height={57}
-            className="w-[100px] h-auto md:w-[120px] object-contain"
-          />
+          <Image src="/logo_baksoTelkom_ft.webp" alt="Logo Bakso Telkom" width={120} height={57} className="w-[100px] h-auto md:w-[120px] object-contain" />
           <p className="text-softCream/70">Sajian Autentik, Cita Rasa Klasik</p>
         </div>
 
