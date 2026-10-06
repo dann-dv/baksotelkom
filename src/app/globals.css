@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-softCream: #ffef91;
+  --color-forestGreen: #468432;
+  --color-softLightGreen: #9ad872;
+  --color-warmOrange: #ffa02e;
+
+  --font-sans: var(--font-poppins);
+  --font-heading: var(--font-playfair);
+}
+
+body {
+  background: var(--color-softCream);
+  color: var(--color-forestGreen);
+  ::selection {
+    background-color: var(--color-softCream);
+    color: var(--color-forestGreen);
+  }
+}
