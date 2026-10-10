@@ -4,6 +4,7 @@ import AboutSection from "@/components/AboutSection";
 import MenuSection from "@/components/MenuSection";
 import LocationSection from "@/components/LocationSection";
 import Footer from "@/components/Footer";
+import Testimonial from "@/components/Testimonial";
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -40,6 +41,7 @@ export default function Home() {
       <AboutSection />
       <MenuSection />
       <LocationSection />
+      <Testimonial />
       <Footer />
     </main>
   );

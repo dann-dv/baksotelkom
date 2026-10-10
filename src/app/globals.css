@@ -18,3 +18,74 @@ body {
     color: var(--color-forestGreen);
   }
 }
+
+/* --- TESTIMONIAL SECTION STYLES --- */
+
+/* 1. Sembunyikan scrollbar tapi tetap bisa di-scroll (Native Browser CSS) */
+.testimonial-scroll-container {
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.testimonial-scroll-container > div {
+  scroll-snap-align: center;
+}
+
+/* Sembunyikan scrollbar visual */
+.testimonial-scroll-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.testimonial-scroll-container {
+  -ms-overflow-style: none; /* IE dan Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* 2. Styling Kartu Ulasan */
+.testimonial-card {
+  background-color: var(--card-bg, #ffffff);
+  padding: 1.5rem; /* p-6 */
+  border-radius: 1rem; /* rounded-2xl */
+  border: 1px solid var(--border-color, #f3f4f6);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-card:hover {
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* 3. Teks dan Akses Warna */
+.text-accent {
+  color: var(--color-warmOrange);
+}
+
+.link-accent {
+  color: var(--text-muted, #6b7280);
+}
+
+.link-accent:hover {
+  color: var(--accent-color, #ea580c);
+}
+
+.star-icon {
+  color: var(--star-color, #eab308); /* Kuning bintang */
+}
+
+.star-icon-small {
+  color: var(--star-color, #fbbf24);
+}
+
+.testimonial-text {
+  color: var(--text-primary, #374151);
+  line-height: 1.625;
+}
+
+.testimonial-author-border {
+  border-color: var(--border-color, #f3f4f6);
+}
+
+.testimonial-date {
+  color: var(--text-muted, #6b7280);
+}

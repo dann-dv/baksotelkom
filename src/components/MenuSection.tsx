@@ -12,9 +12,15 @@ export default function MenuSection() {
   const scrollLeft = useRef(0);
 
   const menus = [
-    { name: "Bakso Kuah (Kosongan)", price: "Rp 16.500", description: "Bakso dengan kuah kaldu nikmat, tanpa isian tambahan", image: "/menus_bt/menu1.webp", imageColor: "from-orange-200 to-orange-400" },
+    {
+      name: "Bakso Kuah (Kosongan)",
+      price: "Rp 16.500",
+      description: "Sajian 4 butir bakso pilihan dengan siraman kuah kaldu gurih yang kaya rasa. Disajikan original tanpa tambahan pelengkap",
+      image: "/menus_bt/menu1.webp",
+      imageColor: "from-orange-200 to-orange-400",
+    },
     { name: "Bakso Campur", price: "Rp 15.000", description: "Bakso kuah komplit dengan isian 3 butir bakso, mie kuning, bihun, tahu, dan pangsit", image: "/menus_bt/menu2.webp", imageColor: "from-orange-300 to-orange-500" },
-    { name: "Tahu Bakso", price: "Rp 4.000", description: "Tahu yang diisi bakso, pas untuk menemani santapmu", image: "/menus_bt/menu3.webp", imageColor: "from-yellow-200 to-yellow-400" },
+    { name: "Tahu Bakso", price: "Rp 4.000", description: "Tahu dengan isian bakso yang lezat, pas untuk menemani santapmu", image: "/menus_bt/menu3.webp", imageColor: "from-yellow-200 to-yellow-400" },
     { name: "Es Teler", price: "Rp 10.000", description: "Minuman segar dengan campuran buah, kolang-kaling, cincau dan susu yang menyegarkan", image: "/menus_bt/menu4.webp", imageColor: "from-green-200 to-green-400" },
     { name: "Es Tape", price: "Rp 7.000", description: "Es Tape ketan yang dingin dan manis, cocok untuk pelepas dahaga", image: "/menus_bt/menu5.webp", imageColor: "from-yellow-300 to-yellow-500" },
     { name: "Tape Panas", price: "Rp 7.000", description: "Tape ketan hangat dengan rasa khas yang nikmat dan menghangatkan", image: "/menus_bt/menu6.webp", imageColor: "from-red-200 to-red-400" },
