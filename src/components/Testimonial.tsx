@@ -209,7 +209,12 @@ export default function Testimonial() {
             <span className="star-icon text-3xl">★</span>
             <span className="font-bold text-2xl">4.7 / 5</span>
           </div>
-          <a href="https://www.google.com/maps/place/Bakso+Telkom/@-7.714985,110.589404,17z" target="_blank" rel="noopener noreferrer" className="link-accent transition-colors text-sm underline mt-1">
+          <a
+            href="https://www.google.com/maps/place/Bakso+Telkom/@-7.714985,110.589404,17z/data=!4m8!3m7!1s0x2e7a446dafc8a645:0x9c97e814fa924388!8m2!3d-7.714985!4d110.589404!9m1!1b1!16s%2Fg%2F11b66jxgvg?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link-accent transition-colors text-sm underline mt-1"
+          >
             Berdasarkan 38 ulasan di Google Maps
           </a>
         </div>
