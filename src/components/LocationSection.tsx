@@ -44,6 +44,10 @@ export default function LocationSection() {
                   </li>
                 ))}
               </ul>
+
+              <div className="mt-4 flex justify-end relative z-10">
+                <h4 className="text-right text-base font-medium text-red-500 italic">*Hari besar atau tanggal merah kami libur</h4>
+              </div>
             </div>
 
             <div className="bg-white rounded-3xl p-8 shadow-lg border border-softLightGreen/30 relative overflow-hidden">
